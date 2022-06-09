@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sendme.ng | Express Meat Delivery</title>
+</head>
+<body>
+    <!-- header section starts here -->
+    <section class="header">
+        <nav>
+            <a href=""><img src="sendmelogo.png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <img src="menu.png" class="menu-icon close" onclick="showMenu()">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <!-- <img src="cart.png" class="shopping-cart-icon"> -->
+            </div>
+            <!-- <div class="menu-and-cart"> -->
+                <img src="cart.png" class="shopping-cart-icon">
+                <img src="menu.png" class="menu-icon" onclick="showMenu()">
+            <!-- </div> -->
+            
+        </nav>
+        <div class="text-box">
+            <h1>Fresh meat delivered to your doorstep at the cheapest price</h1>
+            <!-- <h1>Enjoy The Freshness of <br> Quality Meat Delivered To Your <br> Doorstep At The Cheapest Price</h1> -->
+            <a href="" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- feature sections starts here -->
+    <section class="feature">
+        <div class="row">
+            <div class="col-3">
+                <h3>Any Meat Product</h3>
+                <p>Cow meat, Goat meat, Chicken, whatever your needs are, we got you covered.</p>
+            </div>
+            <div class="col-3">
+                <h3>Delivered Fast</h3>
+                <p>There is a Sendme micro-fulfilment center near you. Get your meats delivered to your doorstep from the
+                    closest one to you in less than 2 hours.
+                </p>
+            </div>
+            <div class="col-3">
+                <h3>Cheap Delivery Fee</h3>
+                <p>We deliver to <span>anywhere</span> in Ibadan for as low as <span>N200</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- shop now section starts here -->
+    <section class="shop">
+        <h2 class="title">Shop Now</h2>
+        <p class="title-p">Check Out Our Product Price List.</p>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="goat.jpg">
+                <h4>Goat Meat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="chicken.jpg">
+                <h4>Goat Meat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="goat.jpg">
+                <h4>Goat Meat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="chicken.jpg">
+                <h4>Goat Meat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">NGN2,600</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="goat.jpg">
+                <h4>Goat Meat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="chicken.jpg">
+                <h4>Goat Meat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="goat.jpg">
+                <h4>Goat Meat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="chicken.jpg">
+                <h4>Goat Meat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">NGN2,600</p>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-4">
+                <img src="goat.jpg">
+                <h4>Goat Meat</h4>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="chicken.jpg">
+                <h4>Goat Meat</h4>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="goat.jpg">
+                <h4>Goat Meat</h4>
+                <p class="price">NGN2,600</p>
+            </div>
+            <div class="col-4">
+                <img src="chicken.jpg">
+                <h4>Goat Meat</h4>
+                <p class="price">NGN2,600</p>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Offer section page -->
+
+    <section class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="whitechicken.png">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Discount Only on Sendnow</p>
+                    <h1>Chicken Breast Mini Pack</h1>
+                    <small>
+                        The Chicken Breast Mini Pack features a 39.9% protein content, making it a healthy choice for healthy growth and development.
+                        Discount Shopper starts on Friday, 10th of <span>June, 2022</span>.
+                    </small> <br>
+                    <a href="" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- business section -->
+    <section class="business">
+        <div class="small-container">
+            <h2 class="business">Sendme for Business</h2>
+            <div class="row">
+                <div class="col-2">
+                    <h3>
+                        Get Supplies For Your Business In Large Quantities.
+                    </h3>
+                    <a href="" class="btn">Send Me</a>
+                </div>
+                <div class="col-2">
+                    <img src="delivery.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <h1>What Our Customers Are Saying</h1>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In veniam, magnam unde, reiciendis molestias sed dolores soluta illo perspiciatis eveniet dignissimos nostrum molestiae labore.
+                    </p>
+                    <h3>Justina Asabi</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In veniam, magnam unde, reiciendis molestias sed dolores soluta illo perspiciatis eveniet dignissimos nostrum molestiae labore.
+                    </p>
+                    <h3>William Anaza</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- call to action -->
+    <section class="cta">
+        <h1>Find Work That Fits You</h1>
+        <p>Join our growing team of enthusiastic individuals building the next Tech Giant.
+            <!--<br>--> Find a role that fits your goal in out team.
+        </p>
+        <a href="index.html" class="btn">contact us</a>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="footer">
+        <div class="small-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phones</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="sendmelogowhite212.jpg" width="50px" height="50px">
+                    <p>Our Purpose is to Sustainably make the Pleasure and Benefits of Having Quality Meat Accessible to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links </h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Career <span style="color: #fff; background: blue; padding: 3px 5px 0; font-size: 10px; border-radius: 10px;"><sup>We are Hiring</sup></span></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us </h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - William Anaza</p>
+    </section>
+
+
+
+
+
+
+    <script>
+
+        let navLinks = document.getElementById("navLinks");
+        navLinks.style.right = "-240px";
+
+        function showMenu(){
+            if(navLinks.style.right == "-240px"){
+                navLinks.style.right = "0px";
+            } else {
+                navLinks.style.right = "-240px";
+            }
+        }
+    </script>
+
+
+    
+</body>
+</html>
